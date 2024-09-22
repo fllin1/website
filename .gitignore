@@ -1,0 +1,70 @@
+# Logs and Debugging
+*.log
+*.env
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Build directories
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.bak
+*.backup
+*.DS_Store
+Thumbs.db
+
+# IDE/Editor specific
+.vscode/
+.idea/
+
+# System files
+.DS_Store   # macOS
+Thumbs.db   # Windows
+
+# Sass/CSS/LESS cache files
+.sass-cache/
+.cache/
+*.css.map
+*.scssc
+*.sassc
+*.lessc
+
+# Minified JS and CSS (if they're generated as part of the build process)
+*.min.js
+*.min.css
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment settings
+.env
+.env.local
+.env.production
+.env.test
+.env.*
+
+# Coverage reports (if using testing)
+coverage/
+
+# Generated files
+*.zip
+*.tar.gz
+*.tgz
+
+# Generated or processed image files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.webp
+
+# npm package-lock or yarn.lock (optional)
+package-lock.json
+yarn.lock
