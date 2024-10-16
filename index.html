@@ -19,7 +19,7 @@
       <ul>
         <li><a href="#header">Home</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#profile">Profile</a></li>
+        <li><a href="#record">Record</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -45,13 +45,23 @@
     <!-- Projects Section -->
     <section id="projects">
       <h2>Projects</h2>
-      <!-- Add your projects here -->
+      <div class="project-container">
+        <div id="project-content" class="project-content">
+          <h3>Project Details</h3>
+          <p>Welcome to the projects section. Please select a project from the buttons below to view more details.</p>
+        </div>
+        <div class="project-buttons">
+          <a onclick="displayProject('deepThought', this)" id="button-deepThought">Deep Thought</a>
+          <a onclick="displayProject('academicProjects', this)" id="button-academicProjects">Academic Projects</a>
+          <a onclick="displayProject('chessBot', this)" id="button-chessBot">Chess Bot</a>
+        </div>
+      </div>
     </section>
 
-    <!-- Profile Section -->
-    <section id="profile">
-      <h2>Profile</h2>
-      <!-- List your Profile here -->
+    <!-- Record Section -->
+    <section id="record">
+      <h2>Record</h2>
+      <!-- List your Record here -->
     </section>
 
     <!-- Contact Section -->
@@ -69,6 +79,6 @@
 
 <!-- Footer Section -->
 <footer>
-  <p>🐼 2024 Florent Lin. No rights reserved. It's free.</p>
+  <p>🐼 2024 Florent Lin. No rights reserved.</p>
 </footer>
 </html>
